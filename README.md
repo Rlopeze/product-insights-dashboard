@@ -1,6 +1,24 @@
 # Product Insights Dashboard
 
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
 A comprehensive product catalog dashboard built with Next.js, TypeScript, shadcn/ui, and TanStack Query. This internal tool provides stakeholders with real-time insights into product data, helping drive data-driven decision making.
+
+## 📋 Table of Contents
+
+- [Features](#-features)
+- [Tech Stack](#️-tech-stack)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [Project Structure](#️-project-structure)
+- [API Integration](#-api-integration)
+- [Performance](#-performance-considerations)
+- [Live Demo](#-live-demo)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ## 🚀 Features
 
@@ -38,7 +56,7 @@ A comprehensive product catalog dashboard built with Next.js, TypeScript, shadcn
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Rlopeze/product-insights-dashboard.git
    cd product-insights-dashboard
    ```
 
@@ -56,6 +74,18 @@ A comprehensive product catalog dashboard built with Next.js, TypeScript, shadcn
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 🚀 Quick Start
+
+The dashboard is ready to use immediately after installation. It connects to the DummyJSON API to fetch product data, so no additional configuration is required.
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+- `npm run format` - Format code with Prettier
 
 ## 🏗️ Project Structure
 
@@ -188,6 +218,19 @@ While not implemented in this MVP, the testing strategy would include:
 - **Bundle Size**: Tree shaking and minimal dependencies
 - **SEO**: Server-side rendering for better search visibility
 
+## 📸 Screenshots
+
+<div align="center">
+  <img src="https://via.placeholder.com/800x400/1e293b/ffffff?text=Dashboard+Overview" alt="Dashboard Overview" width="400"/>
+  <img src="https://via.placeholder.com/800x400/1e293b/ffffff?text=Product+Details" alt="Product Details" width="400"/>
+</div>
+
+## 🌐 Live Demo
+
+Visit the live application: [Product Insights Dashboard](https://product-insights-dashboard.vercel.app)
+
+> **Note**: The live demo uses DummyJSON API for sample data. In production, this would connect to your actual product database.
+
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -196,10 +239,23 @@ While not implemented in this MVP, the testing strategy would include:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+### Development Guidelines
+
+- Follow the existing code style (ESLint + Prettier)
+- Add TypeScript types for new features
+- Update tests when adding new functionality
+- Ensure responsive design for all new components
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-**Built with ❤️ for product teams who need better insights**
+<div align="center">
+  <strong>Built with ❤️ for product teams who need better insights</strong>
+  
+  [⭐ Star this repo](https://github.com/Rlopeze/product-insights-dashboard) • 
+  [🐛 Report Bug](https://github.com/Rlopeze/product-insights-dashboard/issues) • 
+  [💡 Request Feature](https://github.com/Rlopeze/product-insights-dashboard/issues)
+</div>
